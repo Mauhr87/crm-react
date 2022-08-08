@@ -5,8 +5,6 @@ const Layout = () => {
     const location = useLocation()
     const urlActual = location.pathname
 
-    console.log(urlActual)
-
   return (
     <div className='md:flex md:min-h-screen'>
         <div className="md:w-1/4 bg-blue-900 px-5 py-10">
@@ -20,7 +18,7 @@ const Layout = () => {
                     to="/clientes/nuevo">Nuevo Cliente</Link>
             </nav>
         </div>
-        <div className="md:w-3/4">
+        <div className="md:w-3/4 p-10 md:h-screen overflow-scroll">
             <Outlet/>
         </div>
         
