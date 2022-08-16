@@ -9,7 +9,16 @@ const Formulario = () => {
         nombre: Yup.string()
                     .min(3, 'El nombre es muy corto')
                     .max(20, 'El nombre es largo')
-                    .required('El Nombre del cliente es obligatorio')
+                    .required('El Nombre del cliente es obligatorio'),
+        empresa: Yup.string()
+                    .required('El Nombre de la empresa es obligatorio'),
+        email: Yup.string()
+                    .email('Emal no válido')
+                    .required('El Email es obligatorio'),
+        telefono: Yup.number()
+                    .positive('Número no válido')
+                    .interger('Número no válido')
+                    .typeError('El Número no es válido')
     })
 
     const handleSubmit = (valores) => {
@@ -67,7 +76,9 @@ const Formulario = () => {
                             placeholder="Empresa del Cliente"
                             name="empresa"
                         />
-                        
+                        {errors.empresa && touched.empresa ? (
+                            <Alerta>{errors.empresa}</Alerta>
+                        ): null}
                     </div>
 
                     <div className="mb-4">
@@ -82,6 +93,9 @@ const Formulario = () => {
                             placeholder="Email del Cliente"
                             name="email"
                         />
+                        {errors.email && touched.email ? (
+                            <Alerta>{errors.email}</Alerta>
+                        ): null}
                         
                     </div>
 
@@ -97,7 +111,9 @@ const Formulario = () => {
                             placeholder="Teléfono del Cliente"
                             name="telefono"
                         />
-                        
+                        {errors.telefono && touched.telefono ? (
+                            <Alerta>{errors.telefono}</Alerta>
+                        ): null}
                     </div>
 
                     <div className="mb-4">
