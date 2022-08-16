@@ -13,7 +13,7 @@ const Formulario = () => {
         empresa: Yup.string()
                     .required('El Nombre de la empresa es obligatorio'),
         email: Yup.string()
-                    .email('Email no válido')
+                    .email('E-mail no válido')
                     .required('El Email es obligatorio'),
         telefono: Yup.number()
                     .positive('Número no válido')
