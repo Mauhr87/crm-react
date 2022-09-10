@@ -79,7 +79,6 @@ const Formulario = () => {
                         {errors.empresa && touched.empresa ? (
                             <Alerta>{errors.empresa}</Alerta>
                         ): null}
-                        
                     </div>
 
                     <div className="mb-4">
@@ -91,12 +90,13 @@ const Formulario = () => {
                             id="email"
                             type="email"
                             className="mt-2 block w-full p-3 bg-gray-50"
-                            placeholder="Email del Cliente"
+                            placeholder="E-mail del Cliente"
                             name="email"
                         />
                         {errors.email && touched.email ? (
                             <Alerta>{errors.email}</Alerta>
                         ): null}
+
                     </div>
 
                     <div className="mb-4">
@@ -114,7 +114,6 @@ const Formulario = () => {
                         {errors.telefono && touched.telefono ? (
                             <Alerta>{errors.telefono}</Alerta>
                         ): null}
-                        
                     </div>
 
                     <div className="mb-4">
