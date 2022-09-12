@@ -1,3 +1,44 @@
 {
-  "clientes": []
+  "clientes": [
+    {
+      "nombre": "Mauricio",
+      "empresa": "hogar",
+      "email": "mhidalgodg@gmail.com",
+      "telefono": "9998877890",
+      "notas": "test",
+      "id": 1
+    },
+    {
+      "nombre": "Mauricio",
+      "empresa": "Hogar",
+      "email": "mhidalgodg@gmail.com",
+      "telefono": "3434434",
+      "notas": "test1",
+      "id": 2
+    },
+    {
+      "nombre": "Mauricio222",
+      "empresa": "Hogara",
+      "email": "mhidalgodg@gmail.com",
+      "telefono": "77777",
+      "notas": "asdfasdf",
+      "id": 3
+    },
+    {
+      "nombre": "Mauricio222",
+      "empresa": "Hogara",
+      "email": "mhidalgodg@gmail.com",
+      "telefono": "77777",
+      "notas": "asdfasdf",
+      "id": 4
+    },
+    {
+      "nombre": "Pedrito",
+      "empresa": "Chorizo",
+      "email": "pedro@pedro.com",
+      "telefono": "44444",
+      "notas": "choricero\n",
+      "id": 5
+    }
+  ]
 }
