@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Mauricio222",
+      "empresa": "Hogara",
+      "email": "mhidalgodg@gmail.com",
+      "telefono": "77777",
+      "notas": "asdfasdf",
+      "id": 4
+    },
+    {
+      "nombre": "Pedrito",
+      "empresa": "Chorizo",
+      "email": "pedro@pedro.com",
+      "telefono": "44444",
+      "notas": "choricero",
+      "id": 5
+    },
+    {
+      "nombre": "Maurrrrrr",
+      "empresa": "hogar",
+      "email": "mhidalgodg@gmail.com",
+      "telefono": "9998877890",
+      "notas": "test ed9tar",
+      "id": 8
+    }
+  ]
+}
